@@ -25,3 +25,12 @@ For more info have a look at this documentation:
 
 https://help.github.com/articles/create-a-repo
 
+
+
+**************** use this repo and edit from other server *****************
+git clone https://github.com/gourangakole/Hello-World.git
+emacs root_finding.cpp (if you want to edit)
+git add root_finding.cpp
+git commit root_finding.cpp -m "update from lxplus"
+git push origin master (NOTE: this time you do not need -u ) this is only need for the first time.
+
