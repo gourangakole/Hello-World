@@ -1,0 +1,27 @@
+This is also testing git repository:
+
+At first create repository form web browser:
+say name is "Hello-world" 
+
+then in ur local computer or form any server(whose hardware information is mapped to the git hub account) do:
+
+Create a new repository from the command line:
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gourangakole/Hello-World.git
+git push -u origin master
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/gourangakole/Hello-World.git
+git push -u origin master
+
+N.B: Hello-world should match "Hello-world" (the created repository from browser , this is case-sensitive)
+
+For more info have a look at this documentation:
+
+https://help.github.com/articles/create-a-repo
+
